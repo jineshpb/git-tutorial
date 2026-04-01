@@ -12,3 +12,11 @@ When you do actions in Git, nearly all of them only _add_ data to the Git data
 - Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
     
 - Committed means that the data is safely stored in your local database.
+
+### Branching
+
+main ────────●───────────────●
+              \ 
+               ●──●──●  (feature/login-ui)
+                      \
+                       (PR → merge → main)
